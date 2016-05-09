@@ -1,0 +1,42 @@
+body, section, div, a {
+  margin: 0;
+  padding: 0;
+} 
+html, body
+{
+    height: 100%;
+}
+#right{
+  width: 350px;
+  height: 100%;
+  float: right;
+  background-color: #c6c6c6;
+}
+#left{
+  width: 910px;
+  height: 100%;
+  float: left;
+}
+#table-design{
+  width: 851px;
+  height: 315px;
+  background-color: #f6f6f6;
+  margin: 80px 177px 88px 30px;
+  position: absolute;
+}
+#elements{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+#elements .element{
+  position: absolute;
+  cursor: move;
+}
+#render{
+  margin-top: 30px;
+  margin-left: 30px;
+}
